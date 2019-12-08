@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define INIT_STEPS 4
+#define INIT_STEPS 9
 
 typedef struct{
 	int state;
