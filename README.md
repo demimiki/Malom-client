@@ -2,7 +2,7 @@
 A kétszemélyes malom játékhoz a kliens oldal
 
 <h1>Használata</h1>
-A programot linux rendszer alatt tudod csak használni. Indításkor paraméterként vár egy portszámot, amivel a szerverre tudsz kapcsolódni.
+A programot linux rendszer alatt tudod csak használni. Csak helyileg működik(serveraddress.sin_addr.s_addr = INADDR_ANY). Indításkor paraméterként vár egy portszámot, amivel a szerverre tudsz kapcsolódni. Ha nen található a szerver, akkor a program hibával kilép.
 A szerver megtalálható a repoban.
 
 <h2>A játéktábla</h2>
